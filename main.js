@@ -202,9 +202,9 @@ function simpleObjectsLayout() {
 function htmlElement(table, i) {
     let element = document.createElement('div');
     element.className = 'element';
-   element.style.backgroundColor =table[i + 2] == 'F'? 'rgba(255, 0, 128, 0.5)':'rgba(127, 255, 255, 0.25)'
+   element.style.backgroundColor =table[i + 2] == 'F'? 'rgba(255, 0, 128, 0.5)':'rgba(125,164,195, 0.25)'
    // element.style.boxShadow  = 'rgba(255, 0, 128, 0.5)'
-    element.style["boxShadow"]  = table[i + 2] == 'F'? '0px 0px 12px rgba(255, 0, 128, 0.5)':'0px 0px 12px rgba(127, 255, 255, 0.25)'
+    element.style["boxShadow"]  = table[i + 2] == 'F'? '0px 0px 12px rgba(255, 0, 128, 0.5)':'0px 0px 12px rgba(125,164,195, 0.25)'
 //eldocument.getElementById("element").ement.style.cssText = `background-color: 'rgba(255, 0, 128, 0.5)'; box-shadow: 'rgba(255, 0, 128, 0.5)'`;
 
     let symbol = document.createElement('div');
